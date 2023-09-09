@@ -1,29 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildManager : MonoBehaviour
-{
+public class BuildManager : MonoBehaviour {
 
-    public static BuildManager instance;
+	public static BuildManager instance;
 
-    void Awake () {
-        if(instance != null) {
-            // more than one BuildManager in scene
-            return;
-        }
-        instance = this;
-    }
+	void Awake ()
+	{
+		if (instance != null)
+		{
+			Debug.LogError("More than one BuildManager in scene!");
+			return;
+		}
+		instance = this;
+	}
 
-    public GameObject standardTurrentPreFab; 
+	public GameObject standardTurretPrefab;
+	public GameObject anotherTurretPrefab;
 
-    void Start() {
-        turretToBuild = standardTurrentPreFab;
-    }
+	private GameObject turretToBuild;
 
-    private GameObject turretToBuild; 
+	public GameObject GetTurretToBuild ()
+	{
+		return turretToBuild;
+	}
 
-    public GameObject GetTurretToBuild () {
-        return turretToBuild;
-    }
+	public void SetTurretToBuild (GameObject turret)
+	{
+		turretToBuild = turret;
+	}
+
 }
