@@ -5,11 +5,11 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
 
-    private bool doMovement = true;
+    private bool doMovement = false;
 
 
     public float panSpeed = 30f;
-    public float panBorderThicknes = 10f;
+    public float panBorderThicknes = 10f;  // can put Screen.height/20
 
     public float scrollSpeed = 5f;
 
