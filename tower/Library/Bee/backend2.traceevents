@@ -1,372 +1,301 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1694280615295897, "dur":23320, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280615319221, "dur":76, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280615319326, "dur":558, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280615319988, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/level0.resS" }}
-,{ "pid":12345, "tid":0, "ts":1694280615320196, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1694280615320564, "dur":141, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694280615320997, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694280615321171, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694280615321445, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1694280615319900, "dur":2787, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280615322688, "dur":1665961, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280616988650, "dur":156, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280616988806, "dur":62, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280616988869, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280616989165, "dur":665, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1694280615320454, "dur":2661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1694280615323115, "dur":760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1694280615323890, "dur":90541, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1694280615323876, "dur":90559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1694280615415155, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":1, "ts":1694280615416268, "dur":1572223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694280615320456, "dur":2662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694280615323118, "dur":880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694280615324013, "dur":8909, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":2, "ts":1694280615324000, "dur":8924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1694280615332936, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694280615333018, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1694280615333829, "dur":6663, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615333828, "dur":6667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615340522, "dur":6930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615347585, "dur":6507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615354138, "dur":337, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1694280615354485, "dur":7048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615361764, "dur":4891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615366738, "dur":6588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615373385, "dur":23084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1694280615396496, "dur":1592095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615320581, "dur":2553, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615323135, "dur":887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615324032, "dur":9753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694280615324023, "dur":9765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694280615333825, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1694280615335773, "dur":519, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615335771, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615336307, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615336418, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615338419, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615342735, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615340416, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615342922, "dur":4417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615347508, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615352037, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615355999, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615359477, "dur":4540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615364185, "dur":470, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615371136, "dur":54, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615364663, "dur":6573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615380359, "dur":10127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1694280615371372, "dur":19180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1694280615390601, "dur":1598003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615320195, "dur":2622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615322839, "dur":188, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615323027, "dur":178, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615323205, "dur":737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615325458, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1694280615326181, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1694280615328648, "dur":138899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694280615328646, "dur":138903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694280615467610, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1694280615471887, "dur":1516533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615320397, "dur":2711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615323108, "dur":1056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615358156, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615362436, "dur":756, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615358276, "dur":4944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1694280615363480, "dur":135, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615363629, "dur":7083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694280615380755, "dur":1634, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1694280615370809, "dur":11619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1694280615382819, "dur":7828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1694280615390800, "dur":1597797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615320487, "dur":2634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615323122, "dur":910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615324046, "dur":8839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1694280615324033, "dur":8854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1694280615332897, "dur":73, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615333135, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1694280615335174, "dur":1013, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615335172, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615336279, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615337685, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615343125, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615340499, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615348591, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615343314, "dur":5367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615348987, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615353673, "dur":6030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615365538, "dur":147, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615359805, "dur":5926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615366004, "dur":6534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615381739, "dur":676, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615372630, "dur":9819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1694280615382628, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1694280615394099, "dur":838, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1694280615385971, "dur":9013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1694280615395191, "dur":1593350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694280615320344, "dur":2647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694280615322993, "dur":199, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694280615323193, "dur":664, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1694280615323883, "dur":137990, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1694280615323863, "dur":138014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1694280615461938, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1694280615463574, "dur":1524855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615320225, "dur":2617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615322845, "dur":206, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615323052, "dur":164, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615323216, "dur":803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615324020, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1694280615363459, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615360178, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1694280615363930, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694280615364101, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615364173, "dur":534, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615372030, "dur":58, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615364716, "dur":7494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694280615372336, "dur":9475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1694280615387689, "dur":457, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1694280615381962, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1694280615388240, "dur":1600390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615320281, "dur":2569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615322853, "dur":216, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615323069, "dur":861, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615323937, "dur":8806, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1694280615323930, "dur":8815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1694280615332784, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1694280615334331, "dur":9367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615334329, "dur":9372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615343716, "dur":257, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615358114, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615343981, "dur":14234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615358309, "dur":4635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615363034, "dur":6614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615379897, "dur":2022, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615369812, "dur":12148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1694280615382066, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1694280615382142, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1694280615387790, "dur":1600850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615320315, "dur":2650, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615322974, "dur":186, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615323160, "dur":857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615333536, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":10, "ts":1694280615335971, "dur":1417, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615335969, "dur":1421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615337417, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615341096, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615343067, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615347106, "dur":3318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615350478, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615353925, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615357482, "dur":3375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615360915, "dur":4073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615365059, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615379559, "dur":2267, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615370369, "dur":11482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1694280615384589, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615381934, "dur":5618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":10, "ts":1694280615387714, "dur":838, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1694280615388561, "dur":10670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":10, "ts":1694280615399398, "dur":1589112, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1694280615320330, "dur":2654, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1694280615322987, "dur":203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1694280615323190, "dur":753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1694280615323952, "dur":8655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1694280615323944, "dur":8666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1694280615332705, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1694280615334221, "dur":4175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615334220, "dur":4179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615338432, "dur":3716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615342230, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615343554, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615347097, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615349965, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615353452, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615357302, "dur":5567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615362923, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615368752, "dur":225, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1694280615368987, "dur":12384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615381434, "dur":4014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1694280615385504, "dur":4370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/level0.resS" }}
-,{ "pid":12345, "tid":11, "ts":1694280615389899, "dur":1598726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615320493, "dur":2631, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615323124, "dur":799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615323923, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1694280615333095, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":12, "ts":1694280615334628, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615334626, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615335009, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615336724, "dur":444, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615337177, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615339320, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615339385, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615342656, "dur":140, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615343058, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615347825, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615352108, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615354926, "dur":6782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615368670, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615362214, "dur":6697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615368993, "dur":6646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615383517, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1694280615375690, "dur":7938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1694280615383698, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/resources.assets" }}
-,{ "pid":12345, "tid":12, "ts":1694280615385807, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/level0" }}
-,{ "pid":12345, "tid":12, "ts":1694280615387698, "dur":1600805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1694280615320143, "dur":2554, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1694280615322701, "dur":1150, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":13, "ts":1694280615325656, "dur":464, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":13, "ts":1694280615326127, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1694280615326234, "dur":715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":13, "ts":1694280615326951, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":13, "ts":1694280615327140, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615327353, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615327436, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615327584, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615327779, "dur":621, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615328402, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615328514, "dur":422, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615328938, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\PackageCache\\com.unity.visualscripting@1.9.0\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615329117, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\netstandard.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615329252, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615329536, "dur":345, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615329883, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615330075, "dur":1013, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615331090, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615331196, "dur":2650, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615333849, "dur":707, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615334558, "dur":157, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615334717, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615334861, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615335077, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615335314, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615335586, "dur":2027, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615337628, "dur":5670, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Xml.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615343308, "dur":158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player18fca026-inputdata.json" }}
-,{ "pid":12345, "tid":13, "ts":1694280615343493, "dur":143960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.BuildTools.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615487456, "dur":744, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Core.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615488202, "dur":187421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.CSharpSupport.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615675625, "dur":490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.DotNet.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615676116, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.NativeProgramSupport.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615676219, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Stevedore.Program.exe" }}
-,{ "pid":12345, "tid":13, "ts":1694280615676693, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TinyProfiler2.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615676859, "dur":73820, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.GNU.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615750681, "dur":63639, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.LLVM.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615814322, "dur":146491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.VisualStudio.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615960815, "dur":123831, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Toolchain.Xcode.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616084647, "dur":617, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.Tools.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616085265, "dur":570, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616085836, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.VisualStudioSolution.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616085946, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\BeeLocalCacheTool.exe" }}
-,{ "pid":12345, "tid":13, "ts":1694280616086052, "dur":99616, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616185670, "dur":1753, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\NiceIO.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616187465, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\PlayerBuildProgramLibrary.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616187537, "dur":566, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\ScriptCompilationBuildProgram.exe" }}
-,{ "pid":12345, "tid":13, "ts":1694280616188104, "dur":129594, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\SharpYaml.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616317700, "dur":56795, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Api.Attributes.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616374497, "dur":92510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616467008, "dur":149763, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616616774, "dur":52987, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616669762, "dur":89925, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616759689, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Api.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616759759, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.IL2CPP.Bee.BuildLogic.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280616759924, "dur":132370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Options.dll" }}
-,{ "pid":12345, "tid":13, "ts":1694280615326124, "dur":1566172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1694280616892372, "dur":94661, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1694280616987758, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1694280616987757, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/boot.config" }}
-,{ "pid":12345, "tid":13, "ts":1694280616987836, "dur":502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/boot.config" }}
-,{ "pid":12345, "tid":14, "ts":1694280615320509, "dur":2618, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1694280615323127, "dur":876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1694280615324011, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1694280615346256, "dur":352, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1694280615347416, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":14, "ts":1694280615350620, "dur":4515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1694280615360982, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1694280615355195, "dur":5909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1694280615361203, "dur":5433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1694280615366842, "dur":6495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1694280615373413, "dur":8651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":14, "ts":1694280615382111, "dur":364, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":14, "ts":1694280615382483, "dur":4699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":14, "ts":1694280615387247, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":14, "ts":1694280615391799, "dur":1596770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1694280615320538, "dur":2592, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1694280615323130, "dur":897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1694280615324028, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1694280615357622, "dur":6295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":15, "ts":1694280615364070, "dur":6099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1694280615379537, "dur":9972, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":15, "ts":1694280615370228, "dur":19467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":15, "ts":1694280615389958, "dur":1598649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1694280615320554, "dur":2578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1694280615323132, "dur":783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":16, "ts":1694280615325954, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":16, "ts":1694280615328366, "dur":111131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":16, "ts":1694280615328365, "dur":111135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":16, "ts":1694280615439823, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":16, "ts":1694280615441447, "dur":1547030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1694280615320606, "dur":2532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1694280615323138, "dur":858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1694280615344158, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":17, "ts":1694280615348126, "dur":4128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615352450, "dur":4247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615356757, "dur":4024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615360844, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615366765, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":17, "ts":1694280615366824, "dur":5593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615372525, "dur":8910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615381461, "dur":168953, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615381458, "dur":168958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615550440, "dur":10205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":17, "ts":1694280615560658, "dur":1427749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1694280615320625, "dur":2515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1694280615323141, "dur":712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":18, "ts":1694280615325700, "dur":458, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":18, "ts":1694280615326498, "dur":1782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/app.info" }}
-,{ "pid":12345, "tid":18, "ts":1694280615328813, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":18, "ts":1694280615329721, "dur":108642, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":18, "ts":1694280615329720, "dur":108646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower.exe" }}
-,{ "pid":12345, "tid":18, "ts":1694280615438415, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower.exe" }}
-,{ "pid":12345, "tid":18, "ts":1694280615440104, "dur":1548383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1694280615320741, "dur":2402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1694280615323143, "dur":871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1694280615324032, "dur":8140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1694280615324022, "dur":8153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1694280615332430, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":19, "ts":1694280615333779, "dur":3763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":19, "ts":1694280615337589, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615339415, "dur":3701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615343189, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615345400, "dur":1688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615347190, "dur":3158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615350409, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615353978, "dur":3810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615357843, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615362252, "dur":5507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615367818, "dur":8400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615376286, "dur":4498, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":19, "ts":1694280615380802, "dur":16304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":19, "ts":1694280615397167, "dur":1591353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615320767, "dur":2379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615323146, "dur":800, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615332746, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":20, "ts":1694280615334728, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615334726, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615337091, "dur":222, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615335708, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615337411, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615339440, "dur":3702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615343196, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615347818, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615352300, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615355993, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615362292, "dur":211, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615368938, "dur":65, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615362513, "dur":6556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615369129, "dur":6470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615392140, "dur":2656, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":20, "ts":1694280615375664, "dur":19166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/tower/Tower-Defense/build/tower_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":20, "ts":1694280615395028, "dur":1593522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1694280616991432, "dur":960, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1694281784867345, "dur":20061, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281784887480, "dur":494, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281784888602, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694281784888990, "dur":105, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1694281784887994, "dur":2191, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281784890187, "dur":749843, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281785640031, "dur":583, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281785640615, "dur":65, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281785640697, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281785640994, "dur":608, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694281784889451, "dur":1072, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694281784890524, "dur":943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694281784892200, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1694281784893549, "dur":529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784916422, "dur":207, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694281784894112, "dur":22782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784926788, "dur":302, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694281784916983, "dur":10165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784932673, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694281784927210, "dur":5567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784932847, "dur":13721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784946644, "dur":48283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694281784994949, "dur":645224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784888055, "dur":2144, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784890204, "dur":198, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784890403, "dur":1122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784895000, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1694281784895836, "dur":2569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784898469, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784901150, "dur":68, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784906184, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784901224, "dur":6487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784907967, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784916187, "dur":384, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784908032, "dur":8561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784924793, "dur":493, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784916666, "dur":9090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784925879, "dur":9363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784935335, "dur":10052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784945437, "dur":25342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694281784970842, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1694281784981604, "dur":3929, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694281784975006, "dur":10550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1694281784985602, "dur":654575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694281784887998, "dur":2195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694281784890196, "dur":1265, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694281784937136, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694281784934991, "dur":3489, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":3, "ts":1694281784938487, "dur":386, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694281784938901, "dur":643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1694281784939546, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1694281784940014, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694281784940419, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerb0781b08-inputdata.json" }}
+,{ "pid":12345, "tid":3, "ts":1694281784938484, "dur":2206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694281784941242, "dur":299, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694281784942523, "dur":694619, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694281785637747, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694281785637747, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694281785637827, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1694281784888369, "dur":1995, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784890379, "dur":168, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784890547, "dur":1005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784933066, "dur":582, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784940133, "dur":194, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784933852, "dur":6652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1694281784951758, "dur":304, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694281784940584, "dur":11761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694281784952474, "dur":128081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694281785080686, "dur":559476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784888162, "dur":2046, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784890211, "dur":190, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784890440, "dur":1202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784891642, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694281784894170, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1694281784895201, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784897175, "dur":18259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784923817, "dur":1439, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784915494, "dur":10250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784937990, "dur":859, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784925886, "dur":13013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784940457, "dur":9459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784999697, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694281784950096, "dur":49800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694281784999949, "dur":640325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784888287, "dur":1928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784890219, "dur":236, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784890455, "dur":1056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784894285, "dur":1623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1694281784901126, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784895960, "dur":5257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784901443, "dur":421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784901437, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784902216, "dur":8645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784910957, "dur":8418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784919773, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784931498, "dur":249, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784919847, "dur":11956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784931871, "dur":289, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694281784932173, "dur":10619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784942854, "dur":41511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694281784984401, "dur":655738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784888395, "dur":1986, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784890384, "dur":176, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784890561, "dur":1005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784937562, "dur":1256, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784940097, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694281784959463, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784942541, "dur":17112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694281784959735, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1694281784960310, "dur":425, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784981318, "dur":1788, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694281784960750, "dur":22399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1694281784983240, "dur":656908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784888549, "dur":1838, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784890390, "dur":133, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784890523, "dur":955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784893078, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1694281784894938, "dur":37381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694281784944521, "dur":172, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784932587, "dur":12135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694281784944881, "dur":26590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694281784986169, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694281784971536, "dur":14746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1694281784986535, "dur":653625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694281784888792, "dur":1655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694281784890448, "dur":1093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694281784902078, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694281784900032, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1694281784902347, "dur":4749, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784902345, "dur":4758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784907181, "dur":9577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784923810, "dur":1395, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1694281784916839, "dur":8882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784925850, "dur":9950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784935884, "dur":11944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784947911, "dur":48034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1694281784996004, "dur":644100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784888655, "dur":1737, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784890400, "dur":126, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784890526, "dur":1005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784893636, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1694281784894334, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower.exe" }}
+,{ "pid":12345, "tid":10, "ts":1694281784895340, "dur":5396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784900798, "dur":6578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784907442, "dur":758, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784907435, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784908238, "dur":7535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784925945, "dur":887, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784915847, "dur":11033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784926967, "dur":147, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784937162, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1694281784927125, "dur":13747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784940941, "dur":53200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1694281784994186, "dur":645901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694281784888688, "dur":1717, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694281784890405, "dur":1057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694281784891966, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1694281784894185, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1694281784895156, "dur":2217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784916246, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694281784897429, "dur":19028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784923529, "dur":1567, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1694281784916516, "dur":8610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784925480, "dur":9579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784935152, "dur":10266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784945478, "dur":50734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1694281784996250, "dur":643878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784888931, "dur":1530, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784890461, "dur":1012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784893959, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1694281784916295, "dur":123, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784894877, "dur":21606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694281784916558, "dur":142, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784922107, "dur":143, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1694281784916703, "dur":5850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694281784922752, "dur":12065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694281784934921, "dur":10913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694281784945911, "dur":38015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1694281784983965, "dur":656200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694281784889051, "dur":1419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694281784890471, "dur":1058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694281784900815, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1694281784902479, "dur":1287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784902473, "dur":1297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784903841, "dur":5662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784917887, "dur":126, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694281784909696, "dur":8346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784927748, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1694281784918191, "dur":9653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784927977, "dur":8285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784936316, "dur":10563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784946964, "dur":48538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1694281784995534, "dur":644585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784889091, "dur":1389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784890480, "dur":1151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784891651, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Applications\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1694281784891639, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1694281784893541, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1694281784895160, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784896850, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784898389, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784898449, "dur":10179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784911897, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784908712, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784912112, "dur":7963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784920168, "dur":10884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784938422, "dur":646, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1694281784931116, "dur":7983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784939248, "dur":8215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784947563, "dur":47145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1694281784994748, "dur":645416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784889119, "dur":1369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784890488, "dur":1024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784899347, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1694281784906165, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784901056, "dur":6390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784907581, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784907580, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784907929, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784918057, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784911174, "dur":7038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784933404, "dur":300, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1694281784918403, "dur":15333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784933856, "dur":10286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784944435, "dur":18848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1694281784963366, "dur":16153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1694281784979565, "dur":660450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694281784889165, "dur":1329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694281784890495, "dur":1060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694281784946256, "dur":1482, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694281784956898, "dur":8209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1694281784965185, "dur":7388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1694281784989281, "dur":748, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1694281784972636, "dur":17433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1694281784990323, "dur":649710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694281784889235, "dur":1266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694281784890501, "dur":1128, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694281784891631, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1694281784893221, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1694281784894833, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":17, "ts":1694281784895976, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784900598, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694281784898291, "dur":3012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784901339, "dur":952, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784901338, "dur":960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784902335, "dur":7870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784910312, "dur":7885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784918447, "dur":9479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784928001, "dur":9209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784994037, "dur":73, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1694281784937282, "dur":56941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1694281784994263, "dur":646023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784889273, "dur":1233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784890506, "dur":995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784893386, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":18, "ts":1694281784894954, "dur":14571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281784909609, "dur":6630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281784916296, "dur":142, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784916449, "dur":5384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281784931700, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784921916, "dur":9900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281784946209, "dur":423, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784931896, "dur":16104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281784948236, "dur":191, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1694281784948436, "dur":64759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1694281785013229, "dur":626806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784889441, "dur":1076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784890518, "dur":1005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784894167, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1694281784895701, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784904096, "dur":687, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\MDG hackathon\\tower\\Tower-Defense\\tower\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784904095, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784904831, "dur":11155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784926568, "dur":512, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784916054, "dur":11081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784928736, "dur":97, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784938356, "dur":667, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1694281784928843, "dur":10203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784939107, "dur":26528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1694281784965690, "dur":11206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":19, "ts":1694281784976948, "dur":4412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":19, "ts":1694281784981487, "dur":658570, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694281784889413, "dur":1099, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694281784890512, "dur":997, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694281784894264, "dur":1486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1694281784895772, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784898964, "dur":9188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784908273, "dur":162, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694281784908439, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784912081, "dur":8555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784920713, "dur":10233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784931040, "dur":10512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784941644, "dur":15241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1694281784956956, "dur":6773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1694281784963783, "dur":327, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1694281784964380, "dur":10172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":20, "ts":1694281784974609, "dur":39528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/MDG hackathon/builds/tower_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1694281785014162, "dur":625879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694281785642829, "dur":600, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
