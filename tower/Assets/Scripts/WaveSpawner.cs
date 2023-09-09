@@ -8,7 +8,7 @@ public class WaveSpawner : MonoBehaviour
     public Transform spawnPoint;
 
     public float timeBetweenWaves = 5f;
-    private float countdown = 3f;
+    private float countdown = 2f;
 
     private int waveIndex = 0;
 
@@ -27,11 +27,13 @@ public class WaveSpawner : MonoBehaviour
     }
 
     IEnumerator SpawnWave(){
-             waveIndex++;
+            
         for (int i= 0 ; i<waveIndex ; i++ ){
             SpawnEnemy();
             yield return new WaitForSeconds(timeBetweenEnemy);
         }
+
+         waveIndex++;
     
     }
 
