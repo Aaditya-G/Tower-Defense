@@ -9,7 +9,7 @@ public class PlayerStats : MonoBehaviour
 
 
     public static int Money;
-    public int startMoney = 300;
+    public int startMoney = 400;
     private string moneyKey = "PlayerMoney"; 
     
     public static int Xp;
@@ -46,7 +46,7 @@ public class PlayerStats : MonoBehaviour
 		}
 		instance = this;
 
-        //Money = PlayerPrefs.GetInt(moneyKey, startMoney);
+        Money = this.GetMoney();
         Money = startMoney;
         Xp = PlayerPrefs.GetInt(XpKey, startXp);
         XpLevel = PlayerPrefs.GetInt(XpLevelKey , startXpLevel);
@@ -90,5 +90,16 @@ public class PlayerStats : MonoBehaviour
     {
         Money = startMoney;
         SaveMoney();
+    }
+
+    public int GetMoney(){
+        if (PlayerPrefs.HasKey(moneyKey)){
+            return PlayerPrefs.GetInt(moneyKey, Money);
+        }else{
+             PlayerPrefs.SetInt(moneyKey, startMoney);
+             PlayerPrefs.Save();
+
+            return PlayerPrefs.GetInt(moneyKey, startMoney);
+        }
     }
 }
