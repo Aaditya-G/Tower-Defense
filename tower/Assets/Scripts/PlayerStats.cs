@@ -22,12 +22,17 @@ public class PlayerStats : MonoBehaviour
 
 
     public static int StandardTurretCount;
-    public int startStandardTurretCount = 0;
+    public int startStandardTurretCount = 1;
     private string STCkey = "PlayerStandardTurretCount"; 
 
     public static int MissileTurretCount;
     public int startMissileTurretCount = 0;
     private string MTCkey = "PlayerMissileTurretCount"; 
+
+    public static int FarmCount;
+    public int startFarmTurretCount = 0;
+    private string FCkey = "PlayerFarmCount"; 
+
 
 
 
@@ -40,9 +45,9 @@ public class PlayerStats : MonoBehaviour
 			return;
 		}
 		instance = this;
-        
-        // Money = PlayerPrefs.GetInt(moneyKey, startMoney);
-        Money = startMoney;
+
+        Money = PlayerPrefs.GetInt(moneyKey, startMoney);
+        //Money = startMoney;
         Xp = PlayerPrefs.GetInt(XpKey, startXp);
         XpLevel = PlayerPrefs.GetInt(XpLevelKey , startXpLevel);
         StandardTurretCount = PlayerPrefs.GetInt(STCkey , startStandardTurretCount );
@@ -70,8 +75,13 @@ public class PlayerStats : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-     public void SaveMTC() {
+    public void SaveMTC() {
         PlayerPrefs.SetInt(MTCkey , StandardTurretCount);
+        PlayerPrefs.Save();
+    }
+
+      public void SaveFC() {
+        PlayerPrefs.SetInt(FCkey , FarmCount);
         PlayerPrefs.Save();
     }
 
