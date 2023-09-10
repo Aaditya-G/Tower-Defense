@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour {
 
+	public TurretBlueprint standardTurret;
+    public TurretBlueprint missileTurret;
+	
 	BuildManager buildManager;
 
 	void Start ()
@@ -9,16 +12,17 @@ public class Shop : MonoBehaviour {
 		buildManager = BuildManager.instance;
 	}
 
-	public void PurchaseStandardTurret ()
+	public void SelectStandardTurret ()
 	{
 		Debug.Log("Standard Turret Selected");
-		buildManager.SetTurretToBuild(buildManager.standardTurretPrefab);
+		buildManager.SelectTurretToBuild(standardTurret);
+		//code to check if player has enough money then increase standard turret count
 	}
 
-	public void PurchaseAnotherTurret()
+	public void SelectMissileTurret()
 	{
 		Debug.Log("Another Turret Selected");
-		buildManager.SetTurretToBuild(buildManager.anotherTurretPrefab);
+		buildManager.SelectTurretToBuild(missileTurret);
 	}
 
 }
