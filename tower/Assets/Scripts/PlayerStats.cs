@@ -46,8 +46,8 @@ public class PlayerStats : MonoBehaviour
 		}
 		instance = this;
 
-        Money = PlayerPrefs.GetInt(moneyKey, startMoney);
-        //Money = startMoney;
+        //Money = PlayerPrefs.GetInt(moneyKey, startMoney);
+        Money = startMoney;
         Xp = PlayerPrefs.GetInt(XpKey, startXp);
         XpLevel = PlayerPrefs.GetInt(XpLevelKey , startXpLevel);
         StandardTurretCount = PlayerPrefs.GetInt(STCkey , startStandardTurretCount );
