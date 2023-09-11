@@ -16,6 +16,7 @@
  - Click on a turret to select it , the price for standard turret is $100  and for missile turret is $500
  - Place the turret on a node
  - Each wave spawns in 20 seconds, protect your castle (green box)
+ - Click on Space to enable camera movement , move by placing your mouse on edges of the screen or by pressing W , A , S , D respectively for Forward, Left, Backward, Right. Scroll to zoom in and zoom out.
  
 ***Features:***
 
