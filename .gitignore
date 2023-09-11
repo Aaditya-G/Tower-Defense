@@ -12,6 +12,11 @@
 /tower/Temp/
 /tower/Logs/
 /tower/Library/
+/tower/[Ll]brary/
+/tower//[Uu]ser[Ss]ettings/
+/tower/UserSettings/
+tower/Logs/
+tower/Logs*
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
